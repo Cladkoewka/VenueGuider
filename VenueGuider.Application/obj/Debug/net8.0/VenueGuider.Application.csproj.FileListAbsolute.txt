@@ -1,0 +1,17 @@
+C:\ITProjects\.Net\!TestAssignments\VenueGuider\VenueGuider.Application\bin\Debug\net8.0\VenueGuider.Application.deps.json
+C:\ITProjects\.Net\!TestAssignments\VenueGuider\VenueGuider.Application\bin\Debug\net8.0\VenueGuider.Application.dll
+C:\ITProjects\.Net\!TestAssignments\VenueGuider\VenueGuider.Application\bin\Debug\net8.0\VenueGuider.Application.pdb
+C:\ITProjects\.Net\!TestAssignments\VenueGuider\VenueGuider.Application\bin\Debug\net8.0\VenueGuider.Domain.dll
+C:\ITProjects\.Net\!TestAssignments\VenueGuider\VenueGuider.Application\bin\Debug\net8.0\VenueGuider.Infrastructure.dll
+C:\ITProjects\.Net\!TestAssignments\VenueGuider\VenueGuider.Application\bin\Debug\net8.0\VenueGuider.Infrastructure.pdb
+C:\ITProjects\.Net\!TestAssignments\VenueGuider\VenueGuider.Application\bin\Debug\net8.0\VenueGuider.Domain.pdb
+C:\ITProjects\.Net\!TestAssignments\VenueGuider\VenueGuider.Application\obj\Debug\net8.0\VenueGuider.Application.csproj.AssemblyReference.cache
+C:\ITProjects\.Net\!TestAssignments\VenueGuider\VenueGuider.Application\obj\Debug\net8.0\VenueGuider.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\ITProjects\.Net\!TestAssignments\VenueGuider\VenueGuider.Application\obj\Debug\net8.0\VenueGuider.Application.AssemblyInfoInputs.cache
+C:\ITProjects\.Net\!TestAssignments\VenueGuider\VenueGuider.Application\obj\Debug\net8.0\VenueGuider.Application.AssemblyInfo.cs
+C:\ITProjects\.Net\!TestAssignments\VenueGuider\VenueGuider.Application\obj\Debug\net8.0\VenueGuider.Application.csproj.CoreCompileInputs.cache
+C:\ITProjects\.Net\!TestAssignments\VenueGuider\VenueGuider.Application\obj\Debug\net8.0\VenueGui.603FE5C0.Up2Date
+C:\ITProjects\.Net\!TestAssignments\VenueGuider\VenueGuider.Application\obj\Debug\net8.0\VenueGuider.Application.dll
+C:\ITProjects\.Net\!TestAssignments\VenueGuider\VenueGuider.Application\obj\Debug\net8.0\refint\VenueGuider.Application.dll
+C:\ITProjects\.Net\!TestAssignments\VenueGuider\VenueGuider.Application\obj\Debug\net8.0\VenueGuider.Application.pdb
+C:\ITProjects\.Net\!TestAssignments\VenueGuider\VenueGuider.Application\obj\Debug\net8.0\ref\VenueGuider.Application.dll

@@ -1,0 +1,17 @@
+C:\ITProjects\.Net\!TestAssignments\VenueGuider\VenueGuider.Infrastructure\bin\Debug\net8.0\VenueGuider.Infrastructure.deps.json
+C:\ITProjects\.Net\!TestAssignments\VenueGuider\VenueGuider.Infrastructure\bin\Debug\net8.0\VenueGuider.Infrastructure.runtimeconfig.json
+C:\ITProjects\.Net\!TestAssignments\VenueGuider\VenueGuider.Infrastructure\bin\Debug\net8.0\VenueGuider.Infrastructure.dll
+C:\ITProjects\.Net\!TestAssignments\VenueGuider\VenueGuider.Infrastructure\bin\Debug\net8.0\VenueGuider.Infrastructure.pdb
+C:\ITProjects\.Net\!TestAssignments\VenueGuider\VenueGuider.Infrastructure\bin\Debug\net8.0\VenueGuider.Domain.dll
+C:\ITProjects\.Net\!TestAssignments\VenueGuider\VenueGuider.Infrastructure\bin\Debug\net8.0\VenueGuider.Domain.pdb
+C:\ITProjects\.Net\!TestAssignments\VenueGuider\VenueGuider.Infrastructure\obj\Debug\net8.0\VenueGuider.Infrastructure.csproj.AssemblyReference.cache
+C:\ITProjects\.Net\!TestAssignments\VenueGuider\VenueGuider.Infrastructure\obj\Debug\net8.0\VenueGuider.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\ITProjects\.Net\!TestAssignments\VenueGuider\VenueGuider.Infrastructure\obj\Debug\net8.0\VenueGuider.Infrastructure.AssemblyInfoInputs.cache
+C:\ITProjects\.Net\!TestAssignments\VenueGuider\VenueGuider.Infrastructure\obj\Debug\net8.0\VenueGuider.Infrastructure.AssemblyInfo.cs
+C:\ITProjects\.Net\!TestAssignments\VenueGuider\VenueGuider.Infrastructure\obj\Debug\net8.0\VenueGuider.Infrastructure.csproj.CoreCompileInputs.cache
+C:\ITProjects\.Net\!TestAssignments\VenueGuider\VenueGuider.Infrastructure\obj\Debug\net8.0\VenueGui.DFB5F16B.Up2Date
+C:\ITProjects\.Net\!TestAssignments\VenueGuider\VenueGuider.Infrastructure\obj\Debug\net8.0\VenueGuider.Infrastructure.dll
+C:\ITProjects\.Net\!TestAssignments\VenueGuider\VenueGuider.Infrastructure\obj\Debug\net8.0\refint\VenueGuider.Infrastructure.dll
+C:\ITProjects\.Net\!TestAssignments\VenueGuider\VenueGuider.Infrastructure\obj\Debug\net8.0\VenueGuider.Infrastructure.pdb
+C:\ITProjects\.Net\!TestAssignments\VenueGuider\VenueGuider.Infrastructure\obj\Debug\net8.0\VenueGuider.Infrastructure.genruntimeconfig.cache
+C:\ITProjects\.Net\!TestAssignments\VenueGuider\VenueGuider.Infrastructure\obj\Debug\net8.0\ref\VenueGuider.Infrastructure.dll

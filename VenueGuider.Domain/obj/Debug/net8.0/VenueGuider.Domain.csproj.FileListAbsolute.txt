@@ -1,0 +1,11 @@
+C:\ITProjects\.Net\!TestAssignments\VenueGuider\VenueGuider.Domain\bin\Debug\net8.0\VenueGuider.Domain.deps.json
+C:\ITProjects\.Net\!TestAssignments\VenueGuider\VenueGuider.Domain\bin\Debug\net8.0\VenueGuider.Domain.dll
+C:\ITProjects\.Net\!TestAssignments\VenueGuider\VenueGuider.Domain\bin\Debug\net8.0\VenueGuider.Domain.pdb
+C:\ITProjects\.Net\!TestAssignments\VenueGuider\VenueGuider.Domain\obj\Debug\net8.0\VenueGuider.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\ITProjects\.Net\!TestAssignments\VenueGuider\VenueGuider.Domain\obj\Debug\net8.0\VenueGuider.Domain.AssemblyInfoInputs.cache
+C:\ITProjects\.Net\!TestAssignments\VenueGuider\VenueGuider.Domain\obj\Debug\net8.0\VenueGuider.Domain.AssemblyInfo.cs
+C:\ITProjects\.Net\!TestAssignments\VenueGuider\VenueGuider.Domain\obj\Debug\net8.0\VenueGuider.Domain.csproj.CoreCompileInputs.cache
+C:\ITProjects\.Net\!TestAssignments\VenueGuider\VenueGuider.Domain\obj\Debug\net8.0\VenueGuider.Domain.dll
+C:\ITProjects\.Net\!TestAssignments\VenueGuider\VenueGuider.Domain\obj\Debug\net8.0\refint\VenueGuider.Domain.dll
+C:\ITProjects\.Net\!TestAssignments\VenueGuider\VenueGuider.Domain\obj\Debug\net8.0\VenueGuider.Domain.pdb
+C:\ITProjects\.Net\!TestAssignments\VenueGuider\VenueGuider.Domain\obj\Debug\net8.0\ref\VenueGuider.Domain.dll
