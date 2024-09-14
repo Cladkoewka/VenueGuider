@@ -17,6 +17,7 @@ public class CategoryController : ControllerBase
     }
 
     [HttpGet]
+    [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(IEnumerable<Category>))]
     public async Task<IActionResult> GetAllCategories()
     {
         var categories = await _categoryService.GetAllCategoriesAsync();
@@ -24,6 +25,8 @@ public class CategoryController : ControllerBase
     }
 
     [HttpGet("{id}")]
+    [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(Category))]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
     public async Task<IActionResult> GetCategoryById(int id)
     {
         var category = await _categoryService.GetCategoryByIdAsync(id);
@@ -35,6 +38,8 @@ public class CategoryController : ControllerBase
     }
 
     [HttpPost]
+    [ProducesResponseType(StatusCodes.Status201Created, Type = typeof(Category))]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
     public async Task<IActionResult> AddCategory([FromBody] AddCategoryRequest request)
     {
         if (!ModelState.IsValid)
@@ -52,6 +57,9 @@ public class CategoryController : ControllerBase
     }
 
     [HttpPut("{id}")]
+    [ProducesResponseType(StatusCodes.Status204NoContent)]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
     public async Task<IActionResult> UpdateCategory(int id, [FromBody] UpdateCategoryRequest request)
     {
         if (!ModelState.IsValid)
@@ -70,6 +78,8 @@ public class CategoryController : ControllerBase
     }
 
     [HttpDelete("{id}")]
+    [ProducesResponseType(StatusCodes.Status204NoContent)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
     public async Task<IActionResult> DeleteCategory(int id)
     {
         await _categoryService.DeleteCategoryAsync(id);

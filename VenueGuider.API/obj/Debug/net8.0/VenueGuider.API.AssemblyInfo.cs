@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VenueGuider.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6d659aceeb7dcc0d980ed4131cd95142cd190bd8")]
 [assembly: System.Reflection.AssemblyProductAttribute("VenueGuider.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VenueGuider.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

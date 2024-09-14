@@ -10,4 +10,6 @@ public interface IVenueRepository
     Task AddAsync(Venue venue);
     Task UpdateAsync(Venue venue);
     Task DeleteAsync(Venue venue);
+    Task AddVenueTagAsync(VenueTag venueTag);
+    Task DeleteVenueTagAsync(int venueId, int tagId);
 }

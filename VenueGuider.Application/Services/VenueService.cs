@@ -6,10 +6,12 @@ namespace VenueGuider.Application.Services;
 public class VenueService
 {
     private readonly IVenueRepository _venueRepository;
+    private readonly ITagRepository _tagRepository;
 
-    public VenueService(IVenueRepository venueRepository)
+    public VenueService(IVenueRepository venueRepository, ITagRepository tagRepository)
     {
         _venueRepository = venueRepository;
+        _tagRepository = tagRepository;
     }
 
     public async Task<IEnumerable<Venue>> GetAllVenuesAsync()
@@ -54,4 +56,31 @@ public class VenueService
 
         await _venueRepository.DeleteAsync(venue);
     }
+    
+    public async Task AddTagToVenueAsync(int venueId, int tagId)
+    {
+        var venue = await _venueRepository.GetByIdAsync(venueId);
+        if (venue == null) 
+            throw new KeyNotFoundException("Venue not found");
+
+        var tag = await _tagRepository.GetByIdAsync(tagId);
+        if (tag == null) 
+            throw new KeyNotFoundException("Tag not found");
+
+        var venueTag = new VenueTag
+        {
+            VenueId = venueId,
+            TagId = tagId,
+            Venue = venue,
+            Tag = tag
+        };
+
+        await _venueRepository.AddVenueTagAsync(venueTag);
+    }
+
+    public async Task RemoveTagFromVenueAsync(int venueId, int tagId)
+    {
+        await _venueRepository.DeleteVenueTagAsync(venueId, tagId);
+    }
+
 }

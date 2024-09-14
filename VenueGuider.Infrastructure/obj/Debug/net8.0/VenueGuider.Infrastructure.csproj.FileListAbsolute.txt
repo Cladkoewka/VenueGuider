@@ -15,3 +15,4 @@ C:\ITProjects\.Net\!TestAssignments\VenueGuider\VenueGuider.Infrastructure\obj\D
 C:\ITProjects\.Net\!TestAssignments\VenueGuider\VenueGuider.Infrastructure\obj\Debug\net8.0\VenueGuider.Infrastructure.pdb
 C:\ITProjects\.Net\!TestAssignments\VenueGuider\VenueGuider.Infrastructure\obj\Debug\net8.0\VenueGuider.Infrastructure.genruntimeconfig.cache
 C:\ITProjects\.Net\!TestAssignments\VenueGuider\VenueGuider.Infrastructure\obj\Debug\net8.0\ref\VenueGuider.Infrastructure.dll
+C:\ITProjects\.Net\!TestAssignments\VenueGuider\VenueGuider.Infrastructure\obj\Debug\net8.0\VenueGuider.Infrastructure.sourcelink.json

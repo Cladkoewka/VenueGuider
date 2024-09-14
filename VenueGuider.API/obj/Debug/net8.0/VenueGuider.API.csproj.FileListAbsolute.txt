@@ -110,3 +110,4 @@ C:\ITProjects\.Net\!TestAssignments\VenueGuider\VenueGuider.API\obj\Debug\net8.0
 C:\ITProjects\.Net\!TestAssignments\VenueGuider\VenueGuider.API\obj\Debug\net8.0\VenueGuider.API.genruntimeconfig.cache
 C:\ITProjects\.Net\!TestAssignments\VenueGuider\VenueGuider.API\obj\Debug\net8.0\ref\VenueGuider.API.dll
 C:\ITProjects\.Net\!TestAssignments\VenueGuider\VenueGuider.API\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\ITProjects\.Net\!TestAssignments\VenueGuider\VenueGuider.API\obj\Debug\net8.0\VenueGuider.API.sourcelink.json

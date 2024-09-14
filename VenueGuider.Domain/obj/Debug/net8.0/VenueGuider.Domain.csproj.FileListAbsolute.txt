@@ -9,3 +9,4 @@ C:\ITProjects\.Net\!TestAssignments\VenueGuider\VenueGuider.Domain\obj\Debug\net
 C:\ITProjects\.Net\!TestAssignments\VenueGuider\VenueGuider.Domain\obj\Debug\net8.0\refint\VenueGuider.Domain.dll
 C:\ITProjects\.Net\!TestAssignments\VenueGuider\VenueGuider.Domain\obj\Debug\net8.0\VenueGuider.Domain.pdb
 C:\ITProjects\.Net\!TestAssignments\VenueGuider\VenueGuider.Domain\obj\Debug\net8.0\ref\VenueGuider.Domain.dll
+C:\ITProjects\.Net\!TestAssignments\VenueGuider\VenueGuider.Domain\obj\Debug\net8.0\VenueGuider.Domain.sourcelink.json

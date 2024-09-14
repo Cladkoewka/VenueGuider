@@ -17,6 +17,7 @@ public class VenueController : ControllerBase
     }
 
     [HttpGet]
+    [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(IEnumerable<Venue>))]
     public async Task<IActionResult> GetAllVenues()
     {
         var venues = await _venueService.GetAllVenuesAsync();
@@ -24,6 +25,8 @@ public class VenueController : ControllerBase
     }
 
     [HttpGet("{id}")]
+    [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(Venue))]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
     public async Task<IActionResult> GetVenueById(int id)
     {
         var venue = await _venueService.GetVenueByIdAsync(id);
@@ -35,6 +38,7 @@ public class VenueController : ControllerBase
     }
 
     [HttpGet("category/{categoryId}")]
+    [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(IEnumerable<Venue>))]
     public async Task<IActionResult> GetVenuesByCategoryId(int categoryId)
     {
         var venues = await _venueService.GetVenuesByCategoryIdAsync(categoryId);
@@ -42,6 +46,8 @@ public class VenueController : ControllerBase
     }
 
     [HttpPost]
+    [ProducesResponseType(StatusCodes.Status201Created, Type = typeof(Venue))]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
     public async Task<IActionResult> AddVenue([FromBody] AddVenueRequest request)
     {
         if (!ModelState.IsValid)
@@ -60,6 +66,9 @@ public class VenueController : ControllerBase
     }
 
     [HttpPut("{id}")]
+    [ProducesResponseType(StatusCodes.Status204NoContent)]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
     public async Task<IActionResult> UpdateVenue(int id, [FromBody] UpdateVenueRequest request)
     {
         if (!ModelState.IsValid)
@@ -79,9 +88,29 @@ public class VenueController : ControllerBase
     }
 
     [HttpDelete("{id}")]
+    [ProducesResponseType(StatusCodes.Status204NoContent)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
     public async Task<IActionResult> DeleteVenue(int id)
     {
         await _venueService.DeleteVenueAsync(id);
+        return NoContent();
+    }
+    
+    [HttpPost("{venueId}/tags/{tagId}")]
+    [ProducesResponseType(StatusCodes.Status204NoContent)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    public async Task<IActionResult> AddTagToVenue(int venueId, int tagId)
+    {
+        await _venueService.AddTagToVenueAsync(venueId, tagId);
+        return NoContent();
+    }
+
+    [HttpDelete("{venueId}/tags/{tagId}")]
+    [ProducesResponseType(StatusCodes.Status204NoContent)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    public async Task<IActionResult> RemoveTagFromVenue(int venueId, int tagId)
+    {
+        await _venueService.RemoveTagFromVenueAsync(venueId, tagId);
         return NoContent();
     }
 }

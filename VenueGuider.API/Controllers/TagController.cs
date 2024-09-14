@@ -17,6 +17,7 @@ public class TagController : ControllerBase
     }
 
     [HttpGet]
+    [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(IEnumerable<Tag>))]
     public async Task<IActionResult> GetAllTags()
     {
         var tags = await _tagService.GetAllTagsAsync();
@@ -25,6 +26,8 @@ public class TagController : ControllerBase
     }
 
     [HttpGet("{id}")]
+    [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(Tag))]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
     public async Task<IActionResult> GetTagById(int id)
     {
         var tag = await _tagService.GetTagByIdAsync(id);
@@ -36,6 +39,8 @@ public class TagController : ControllerBase
     }
 
     [HttpPost]
+    [ProducesResponseType(StatusCodes.Status201Created, Type = typeof(Tag))]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
     public async Task<IActionResult> AddTag([FromBody] AddTagRequest request)
     {
         if (!ModelState.IsValid)
@@ -52,6 +57,9 @@ public class TagController : ControllerBase
     }
 
     [HttpPut("{id}")]
+    [ProducesResponseType(StatusCodes.Status204NoContent)]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
     public async Task<IActionResult> UpdateTag(int id, [FromBody] UpdateTagRequest request)
     {
         if (!ModelState.IsValid)
@@ -69,6 +77,8 @@ public class TagController : ControllerBase
     }
 
     [HttpDelete("{id}")]
+    [ProducesResponseType(StatusCodes.Status204NoContent)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
     public async Task<IActionResult> DeleteTag(int id)
     {
         await _tagService.DeleteTagAsync(id);

@@ -59,4 +59,28 @@ public class VenueRepository : IVenueRepository
         _context.Venues.Remove(venue);
         await _context.SaveChangesAsync();
     }
+    
+    public async Task AddVenueTagAsync(VenueTag venueTag)
+    {
+        var existingVenueTag = await _context.VenueTags
+            .FirstOrDefaultAsync(vt => vt.VenueId == venueTag.VenueId && vt.TagId == venueTag.TagId);
+    
+        if (existingVenueTag == null)
+        {
+            await _context.VenueTags.AddAsync(venueTag);
+            await _context.SaveChangesAsync();
+        }
+    }
+
+    public async Task DeleteVenueTagAsync(int venueId, int tagId)
+    {
+        var venueTag = await _context.VenueTags
+            .FirstOrDefaultAsync(vt => vt.VenueId == venueId && vt.TagId == tagId);
+    
+        if (venueTag != null)
+        {
+            _context.VenueTags.Remove(venueTag);
+            await _context.SaveChangesAsync();
+        }
+    }
 }
